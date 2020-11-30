@@ -1,0 +1,99 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header{
+	margin: 0.15rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+}
+
+.task-name
+{
+	
+	background: none;
+	color: black;
+	border: none;
+	font-size: 25px;
+	border-bottom: solid black 2px;
+	border-radius: 0;
+}
+
+a{
+	font-size: 16px;
+	padding: 1px 6px;
+	border: solid rgb(118, 118, 118) 1px;
+	border-radius: 5px;
+	background: rgb(239, 239, 239);
+	color: rgb(59, 59, 59);
+	text-decoration: none;
+}
+
+
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+.task{
+	display: flex;
+	list-style-type: none; /* Убираем маркеры */
+	border: solid DeepSkyBlue 2px;
+	margin: 0.35rem 0.35rem;
+}
+
+.task-info{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	border-right: solid DeepSkyBlue 5px;
+}
+
+.task-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+h2{
+	margin: 6px;
+}
+
+p{
+	margin-top: 2%; 
+	margin-bottom: 2%; 
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 15px;
+}
+
+.center-paragraph{
+	align-self: center;
+}
+
+form{
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+}
